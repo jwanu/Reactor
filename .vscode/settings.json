@@ -1,0 +1,15 @@
+{
+  "gitlens.hovers.currentLine.over": "line",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.": false,
+  "eslint.validate": [{ "language": "javascript" }]
+}
