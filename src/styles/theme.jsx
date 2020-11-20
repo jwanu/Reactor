@@ -1,4 +1,4 @@
-import styled, { css, createGlobalStyle } from 'styled-components';
+import { css, createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import media from './responsive';
 import color from './colors';
@@ -6,7 +6,9 @@ import size from './size';
 
 const GlobalStyles = createGlobalStyle`
   ${reset}
-  *{ box-sizing: border-box }
+  * { 
+    box-sizing: border-box;
+    }
   a {
     color: inherit;
     text-decoration: none;
@@ -50,7 +52,7 @@ const Btn = css`
 `;
 
 // props 유무에 따른 조건 mixin
-const margin = css`
+const margino = css`
   ${({ margin }) => margin && `margin: ${margin};`}
 `;
 

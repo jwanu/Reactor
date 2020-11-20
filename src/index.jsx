@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Poll from './Poll';
 import reportWebVitals from './reportWebVitals';
+import { GlobalStyles } from './styles/theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello</div>
+    <GlobalStyles />
+    <Poll />
   </React.StrictMode>,
   document.getElementById('root'),
 );
